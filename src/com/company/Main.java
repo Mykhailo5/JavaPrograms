@@ -1,11 +1,11 @@
 package com.company;
 
 public class Main {
-    public static void main(String[] args) {
-        System.out.println(multiply(2, 3));
+    public static void main (String args[]){
+        System.out.println(getVolumeOfCuboid(2.3, 4.5, 6.2));
     }
-    public static int multiply(int num1, int num2) {
+    public static double getVolumeOfCuboid(final double length, final double width, final double height) {
 
-        return num1*num2;
+        return length*width*height;
     }
 }
