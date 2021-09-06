@@ -3,10 +3,11 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-       System.out.println(doubleInteger(3));
+       System.out.println(isDivisible(3, 5));
     }
 
-    public static int doubleInteger(int i) {
-        return i * 2 ;
+    public static boolean isDivisible(int wallLength, int pixelSize) {
+
+        return wallLength%pixelSize==0;
     }
 }
